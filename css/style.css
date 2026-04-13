@@ -1,0 +1,19 @@
+.animated-shape:hover {
+    /* Налаштування анімації: назва, тривалість, нескінченність, плавний перехід */
+  animation: colorShift 1s infinite alternate ease-in-out;
+}
+
+@keyframes colorShift {
+  0% {
+    fill: #3498db;    /* Синій */
+    stroke: #2c3e50;  /* Темно-сірий */
+  }
+  50% {
+    fill: #e74c3c;    /* Червоний */
+    stroke: #9b59b6;  /* Фіолетовий */
+  }
+  100% {
+    fill: #f1c40f;    /* Жовтий */
+    stroke: #e67e22;  /* Помаранчевий */
+  }
+}
